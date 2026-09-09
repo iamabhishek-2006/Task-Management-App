@@ -10,6 +10,7 @@ import AuthProvider from "./context/auth-context";
 import Todos  from "./apps/todos/Todos";
 import TodosProvider from "./context/todos.context";
 import Profile from "./pages/Profile";
+// import StopWatch from "./pages/StopWatch";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/profile" element={<Profile/>}/>
+            {/* <Route path="/stopwatch" element={<StopWatch/>}/> */}
           </Routes>
         </TodosProvider>
       </AuthProvider>

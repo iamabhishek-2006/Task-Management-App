@@ -22,12 +22,8 @@ const Profile = () => {
           </div>
         </div>
         <div className={styles.Profile_icon}>
-          <img
-            src={
-              "https://media.istockphoto.com/id/2150990067/photo/confident-young-professional-giving-thumbs-up-in-office.jpg?s=612x612&w=0&k=20&c=zrDhdSTUcdfkYVezN_LhOLfwTyQHXkNP2w9G6Nc1IQE="
-            }
-            alt="Profile"
-          />
+         <img
+         src="https://media.istockphoto.com/id/2150990067/photo/confident-young-professional-giving-thumbs-up-in-office.jpg?s=612x612&w=0&k=20&c=zrDhdSTUcdfkYVezN_LhOLfwTyQHXkNP2w9G6Nc1IQE="  alt="Profile"/>
         </div>
         <div className={styles.text}>
           <h3>Abhishek</h3>
