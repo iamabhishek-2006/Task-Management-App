@@ -31,7 +31,7 @@ const SignUp = () => {
     }
 
    try {
-    const res = await fetch("http://localhost:5000/register", {
+    const res = await fetch("https://server101-ge81.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
