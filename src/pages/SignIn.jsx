@@ -31,7 +31,7 @@ const SignIn = () => {
         return;
       }
  
-      const res = await fetch("https://server101-ge81.onrender.com", {
+      const res = await fetch("https://server101-ge81.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
